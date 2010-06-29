@@ -11,4 +11,8 @@ class ApplicationController < ActionController::Base
     true
   end
   
+  def require_admin?
+    true
+  end
+  
 end
