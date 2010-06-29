@@ -13,6 +13,10 @@ class ApplicationController < ActionController::Base
   
   def require_admin?
     true
+  end               
+  
+  def logged?
+    true
   end
   
 end
